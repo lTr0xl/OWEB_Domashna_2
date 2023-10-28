@@ -1,0 +1,41 @@
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10%;
+    border: 0.5em outset rgb(166, 151, 151);
+    border-radius: 20px;
+    background-image: url(pizza.avif);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: 85%;
+    box-shadow: 25px 25px 10px rgb(166, 151, 151);
+}
+tr td{
+    font-weight: 600;
+    border:2px outset burlywood;
+    padding: 2px;
+}
+tr th{
+    color:rgb(221, 183, 133);
+    -webkit-text-stroke: 0.6px black;
+    font-size:1.4em;
+    border:3px outset rgb(168, 95, 0);
+    padding:2px;
+}
+tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+tr:last-child td:last-child{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+input[type=submit]{
+    font-weight: bold;
+    border:thin solid;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(29, 235, 29);
+    text-shadow: 5px 5px 6px lightgrey;
+}
+

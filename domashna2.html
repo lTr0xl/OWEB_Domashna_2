@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pizza Delivery</title>
+        <link rel="stylesheet" type="text/css" href="domashna2.css">
+    </head>
+    <body>
+        <form method="post" action="mailto:nikolovtoshe22@gmail.com">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Pizza Shop 2.0</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" name="name" maxlength="30" size="20"></td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Topping</td>
+                        <td>
+                            <label><input type="radio" name="toppings" value="supreme">Supreme</label>
+                            <br>
+                            <label><input type="radio" name="toppings" value="vegeterian">Vegeterian</label>
+                            <br>
+                            <label><input type="radio" name="toppings" value="Hawaiian">Hawaiian</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Sauce</td>
+                        <td>
+                            <select name="sauce">
+                                <option>Tomato</option>
+                                <option>Nutela</option>
+                                <option>Bulimili</option>
+                                <option>Mumipatiti</option>
+                                <option>Samalo</option>
+                                <option>Tr0xino</option>
+                                <option selected>Nothing</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Extras</td>
+                        <td>
+                            <label><input type="checkbox" name="extras" value="cheese">Extra Cheese</label>
+                            <label><input type="checkbox" name="extras" value="glutenfree">Gluten Free Base</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <label>Delivery Instructions:
+                                <br>
+                                <textarea rows="4" cols="50"></textarea>
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Send My Order">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
